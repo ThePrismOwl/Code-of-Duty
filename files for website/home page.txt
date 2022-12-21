@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Code of Duty - Homepage</title>
+<style>
+body {
+  background: #F5F6F7;
+  background: -moz-linear-gradient(top, #F5F6F7 0%, #6EDCD9 50%, #E15FED 100%);
+  background: -webkit-linear-gradient(top, #F5F6F7 0%, #6EDCD9 50%, #E15FED 100%);
+  background: linear-gradient(to bottom, #F5F6F7 0%, #6EDCD9 50%, #E15FED 100%);
+}
+  
+h1 {
+  margin-top:20px;
+  margin-left:100px;
+  margin-right:100px;   
+  margin-bottom: 20px;  
+  color: #00308F;
+  text-align: center;
+  font-family: Arial;  
+  font-size: 100px;  
+}
+
+h2 {
+  margin-top:20px;
+  margin-left:100px; 
+  margin-right:100px;     
+  margin-bottom: 20px;
+  color: #3F3351;
+  text-align: center;
+  font-family: "Lucida Console"; 
+  font-size: 60px;  
+}
+td{
+  color: #3F3351;
+  text-align: center;
+  font-family: "Verdana"; 
+  font-size: 50px;
+  padding-right: 50px;  
+  padding-left: 50px;    
+}
+ 
+p{
+  margin-top:20px;
+  margin-left:100px; 
+  margin-right:100px;    
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 60px;
+}
+button {
+  border: 10px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1000px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+button:hover {
+  background-color: #FFFFFF;
+  color: #332FD0;
+  border: 5px solid #FFFFFF;
+}  
+button {background-color: #332FD0; font-size: 20px; border-radius: 12px;}
+
+#demoparagraph {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  -webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+  -moz-column-rule: 1px solid rgba(28,110,164,0.5);
+  column-rule: 1px solid rgba(28,110,164,0.5);
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<center><img src="Code of Duty Logo_website.png" alt="Code of Duty" height="1500" width="1500" title="Code of Duty"></center>
+</header>
+<hr>
+<nav>
+<center><table cellspacing="10" cellpadding="10">
+<tr>
+<td><a href="#home">Home</td>
+<td><a href="#aboutdesc">About Us</td>
+<td><a href="#team">Meet the Team</td>
+</tr>
+</table>
+</center>
+</nav>
+<hr>
+
+<div id="home">
+<center><h1>Greetings! Welcome to our WEBSITE!</h1>
+  <br><br><br><br>
+<h2>Final Group Project for Introduction to Computing</h2></center>
+<br><br>
+<center><img src="https://c4.wallpaperflare.com/wallpaper/410/1014/448/night-cyberpunk-futuristic-city-artwork-wallpaper-preview.jpg" alt="Home Page Image" height="820" width="1456" title="Home Page Image"></center>
+</div>
+
+<br><br>
+<div id="aboutdesc">
+<center><h1>About Us</h1>
+<p><strong>Code of Duty</strong> is lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<br><br>
+
+<div id="team">
+<center><h1>Meet the Team!</h1>
+<br><br>
+
+<div id="demoparagraph">
+<h2>Hershelle Hannah Agasa</h2>
+<button>Check the Profile!</button>
+<h2>Gui Ann Canta</h2>
+<button>Check the Profile!</button>
+<h2>Marlyn Gregorio</h2>
+<button>Check the Profile!</button>
+<h2>Robert Deniel Lubay</h2>
+<button>Check the Profile!</button>
+<h2>Franzine Benneth Roa</h2>
+<button>Check the Profile!</button>
+<h2>Roescen Abie Pajaro</h2>
+<button>Check the Profile!</button>
+<h2>Anthony Alfred Almenario</h2>
+<button>Check the Profile!</button>
+<h2>Nicolas Milton Ching</h2>
+<button>Check the Profile!</button></div>   
+</center>
+</div>
+
+</body>
+</html>
